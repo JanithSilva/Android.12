@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Deels App</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="signin">Signin</string>
+    <string name="save_record">Save Record</string>
+    <string name="record_list">Record List</string>
+    <string name="home">Home</string>
+    <string name="add_new">+ Add New</string>
+</resources>

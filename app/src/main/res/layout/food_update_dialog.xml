@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewRecord"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/add_photo"/>
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/editDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Details"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="160dp"
+        android:text="Update"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+</LinearLayout>
